@@ -1,0 +1,188 @@
+header {
+  position: absolute;
+  width: 1340px;
+  height: 1246px;
+  left: 200px;
+  top: 71px;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px; /* Make the grid smaller than the container */
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+h1 {
+  width: 170px;
+  height: 98px;
+  position: absolute;
+  left: 0;
+  top: 32px;
+}
+
+p {
+  /* Primary Text */
+
+  width: 447px;
+  height: 109px;
+
+  /* Body / 1 */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  /* Theme 1 / Neutrals 3 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 212px;
+}
+
+.button {
+  /* LET’S CONNECT */
+
+  width: 137px;
+  height: 24px;
+
+  /* Body / 2 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 402px;
+}
+
+.resume {
+  /* LET’S CONNECT */
+
+  width: 200px;
+  height: 44px;
+
+  /* Body / 2 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 522px;
+}
+
+.twitter {
+  /* twitter */
+
+  position: absolute;
+  left: -18.06%;
+  right: 80.56%;
+  top: 36.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.linkedin {
+  /* linkedin */
+
+  position: absolute;
+  left: -12.06%;
+  right: 80.56%;
+  top: 36.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.medium {
+  /* medium */
+
+  position: absolute;
+  left: -6.06%;
+  right: 80.56%;
+  top: 36.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.github {
+  /* github */
+
+  position: absolute;
+  left: 0.06%;
+  right: 80.56%;
+  top: 36.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.angellist {
+  /* angellist */
+
+  position: absolute;
+  left: 6.06%;
+  right: 80.56%;
+  top: 36.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
